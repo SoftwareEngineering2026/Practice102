@@ -11,8 +11,8 @@
 # Selected Open-Source Project
 
 **Repository:**  
-https://github.com/onSSSer/bank_account
-https://github.com/onSSSer/bank_account/pull/1
+1. [Ссылка на проект](https://github.com/onSSSer/bank_account)
+2. [Пул реквест](https://github.com/onSSSer/bank_account/pull/1)
 
 # Coverage
 

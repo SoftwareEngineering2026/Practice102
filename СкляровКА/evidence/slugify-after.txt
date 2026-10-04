@@ -1,0 +1,28 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.14, pytest-9.1.1, pluggy-1.6.0
+rootdir: C:\Users\duda0\Documents\Codex\2026-10-04\new-chat\work\slugify
+configfile: pyproject.toml
+testpaths: tests
+plugins: platformdirs-4.12.3, cov-7.1.0
+collected 131 items
+
+tests\test_add_uppercase_error.py ...                                    [  2%]
+tests\test_cli_interrupt.py ..                                           [  3%]
+tests\test_legacy.py ................................................... [ 42%]
+...............................                                          [ 66%]
+tests\test_legacy_backend_errors.py ...                                  [ 68%]
+tests\test_release.py .........................................          [100%]
+
+=============================== tests coverage ================================
+______________ coverage: platform win32, python 3.12.14-final-0 _______________
+
+Name                  Stmts   Miss Branch BrPart  Cover   Missing
+-----------------------------------------------------------------
+slugify\__main__.py      61      1     22      1    98%   112
+slugify\_legacy.py      103      0     56      1    99%   91->90
+-----------------------------------------------------------------
+TOTAL                   330      1    152      2    99%
+
+4 files skipped due to complete coverage.
+Coverage JSON written to file ../../outputs/software-engineering/evidence/slugify-after.json
+============================= 131 passed in 5.56s =============================
